@@ -1,0 +1,5 @@
+source_key,published_at,title,entity_name_raw,region,record_id,status,document_url
+TX-001,2026-01-28T10:00:00Z,Well Permit,Acme Energy LLC,TX,RRC-1,Filed,https://example.com/1.pdf
+TX-002,2026-01-28T11:00:00Z,Pipeline Notice,Acme Energy LLC,TX,RRC-2,Pending,https://example.com/2.pdf
+NM-001,2026-01-28T09:30:00Z,Spill Report,Desert Sun Inc,NM,NM-1,Filed,https://example.com/3.pdf
+LA-001,2026-01-27T20:00:00Z,Enforcement Action,Gulf Drilling,LA,LA-1,Approved,https://example.com/4.pdf

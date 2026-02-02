@@ -1,0 +1,22 @@
+[
+  {
+    "source_key": "TX-002",
+    "published_at": "2026-01-28T11:00:00Z",
+    "title": "Pipeline Notice",
+    "entity_name_raw": "Acme Energy LLC",
+    "region": "TX",
+    "record_id": "RRC-2",
+    "status": "Pending",
+    "document_url": "https://example.com/2.pdf"
+  },
+  {
+    "source_key": "TX-003",
+    "published_at": "2026-01-31T08:00:00Z",
+    "title": "Hearing Notice Updated",
+    "entity_name_raw": "Acme Energy LLC",
+    "region": "TX",
+    "record_id": "RRC-3",
+    "status": "Scheduled",
+    "document_url": "https://example.com/5.pdf"
+  }
+]
