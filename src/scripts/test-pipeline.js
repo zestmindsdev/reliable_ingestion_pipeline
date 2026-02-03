@@ -3,7 +3,7 @@
  * Tests all pipeline features with senior-level services
  */
 
-const connector = require('../connectors/mock_connector');
+const connector = require('../../connectors/mock_connector');
 const ingestionService = require('../services/ingestion');
 const alertsService = require('../services/alerts');
 const exportService = require('../services/export');

@@ -8,11 +8,11 @@ const rateLimit = require('express-rate-limit');
 require('dotenv').config();
 
 const connector = require('./connectors/mock_connector');
-const db = require('./services/database');
-const ingestionService = require('./services/ingestion');
-const alertsService = require('./services/alerts');
-const exportService = require('./services/export');
-const { errorHandler, asyncHandler } = require('./services/errors');
+const db = require('./src/services/database');
+const ingestionService = require('./src/services/ingestion');
+const alertsService = require('./src/services/alerts');
+const exportService = require('./src/services/export');
+const { errorHandler, asyncHandler } = require('./src/services/errors');
 
 const app = express();
 const PORT = process.env.PORT || 3000;

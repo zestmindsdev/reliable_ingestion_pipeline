@@ -269,6 +269,11 @@ class IngestionService {
       throw new ValidationError('sourceType must be either "bulk" or "recent"');
     }
 
+    records = records.map(r => ({
+      ...r,
+      entity_name_norm: r.entity_name_raw.toLowerCase().trim()
+    }));
+
     if (sourceType === 'recent') {
       records = this.filterRecentWindow(records, 72);
     }

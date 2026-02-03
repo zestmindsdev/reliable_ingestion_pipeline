@@ -3,7 +3,7 @@
  * Production-ready recent data ingestion (last 72 hours)
  */
 
-const connector = require('../connectors/mock_connector');
+const connector = require('../../connectors/mock_connector');
 const ingestionService = require('../services/ingestion');
 const db = require('../services/database');
 
