@@ -56,9 +56,9 @@ npm start
 
 ```
 regulatory-pipeline/
+├──connectors/
+│   └── mock_connector.js   # Data connector (isolated, no business logic)
 ├── src/
-│   ├── connectors/
-│   │   └── mock_connector.js   # Data connector (isolated, no business logic)
 │   ├── services/
 │   │   ├── database.js         # Database connection pool
 │   │   ├── ingestion.js        # Ingestion logic with hashing
@@ -68,14 +68,14 @@ regulatory-pipeline/
 │   │   ├── ingest-bulk.js      # Bulk ingestion runner
 │   │   ├── ingest-recent.js    # Recent ingestion runner
 │   │   └── test-pipeline.js    # Test suite
-│   └── server.js               # API server
 ├── mock_data/
 │   ├── bulk.csv                # Bulk data source (4 records)
 │   └── recent.json             # Recent data source (2 records)
 ├── schema.sql                  # Database schema
 ├── package.json
 ├── .env.example
-└── README.md
+├── README.md
+└── server.js
 ```
 
 ## Core Features
